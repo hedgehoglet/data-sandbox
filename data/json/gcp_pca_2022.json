@@ -1,0 +1,1253 @@
+[
+    {
+        "index": 0,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "You want to grant some users the ability to view resources in a project following Google’s recommended practices. How?",
+        "choices": {
+            "A": "Grant to each user the editor role",
+            "B": "Create a new Google group, add users to a group and add viewer role",
+            "C": "Grant the viewer role under the organization",
+            "D": "Create a new Google group, add users to a group and add editor role"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 1,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "What is the best way to estimate the cost of running an application on GCP?",
+        "choices": {
+            "A": "Use the math command in the CLI",
+            "B": "Use the pricing calculator to get an estimation",
+            "C": "Go to each product page to see the price and tabulate using a spreadsheet",
+            "D": "Use a spreadsheet to calculate based on your estimations"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 2,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "What kind of account should be used for an application to interact with another service?",
+        "choices": {
+            "A": "API Account",
+            "B": "Code Account",
+            "C": "Service Account",
+            "D": "Machine Account"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 3,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "To enforce 2-factor authentication to your directory users, you can use ...",
+        "choices": {
+            "A": "Cloud 2FA",
+            "B": "Cloud Identity Admin",
+            "C": "Google Workspace Editor",
+            "D": "Cloud IAM"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 4,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "What can you use to organise your resources in the resource hierarchy?",
+        "choices": {
+            "A": "Folders and Boxes",
+            "B": "Projects and Files",
+            "C": "Files and Boxes",
+            "D": "Folders and Projects"
+        },
+        "answers": "D",
+        "note": null
+    },
+    {
+        "index": 5,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "An engineer left the company, and it was found that a core project seems to have been deleted. Why did this happen?",
+        "choices": {
+            "A": "The project was not attached to the organization",
+            "B": "A malware attack deletes one project per hour until you pay them to stop",
+            "C": "A failed attempt to pay the bill resulted in Google deleting the project",
+            "D": "The engineer intentionally deleted the project out of spite"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 6,
+        "source": "GIB - Week 1 - Cloud Basics and Resources (Kahoot)",
+        "question": "If you want to list all the projects, which gcloud command can you use?",
+        "choices": {
+            "A": "gcloud list project",
+            "B": "gcloud projects list all",
+            "C": "gcloud projects list",
+            "D": "gcloud config project"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 7,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "In what scenario should we use unmanaged instance groups?",
+        "choices": {
+            "A": "Instances in the group need to have the same configuration",
+            "B": "Instances in the group need different configurations",
+            "C": "We need to autoscale instances based on CPU usage",
+            "D": "We are building a stateless app"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 8,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "Which of the following is / are true regarding managed instance groups?",
+        "choices": {
+            "A": "They offer high availability, autoscaling, and automatic updates",
+            "B": "They are not suitable for batch processing workloads",
+            "C": "Additional instances are removed 15 mins after they are no longer required",
+            "D": "Additional instances are removed 10 mins after they are no longer required",
+            "E": "They are not suitable for high throughput applications"
+        },
+        "answers": "A,D",
+        "note": null
+    },
+    {
+        "index": 9,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "To deploy several microservices, and each uses a different version of libraries, and to keep development environment in sync, you need ...",
+        "choices": {
+            "A": "Containers",
+            "B": "Virtual Machines",
+            "C": "RPM / DEB",
+            "D": "Chef / Puppet"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 10,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "You would like to run a custom stateless container in a managed Google Cloud service. What are your three options?",
+        "choices": {
+            "A": "App Engine Flexible, Cloud Run, Kubernetes Engine",
+            "B": "Compute Engine, Cloud Functions, Kubernetes Engine",
+            "C": "Cloud Functions, Cloud Run, App Engine Flexible",
+            "D": "App Engine Standard, Cloud Run, Kubernetes Engine"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 11,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "Your company requires all instances of VMs to have a virtual Trusted Platform Module. What GCE option should be enabled?",
+        "choices": {
+            "A": "Disable live migration",
+            "B": "Trusted Module Setting",
+            "C": "Preemptible VMs",
+            "D": "Shielded VMs"
+        },
+        "answers": "D",
+        "note": null
+    },
+    {
+        "index": 12,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "You have a web app written in Python 3.7, and you do not want to manage servers or containers. What should you use?",
+        "choices": {
+            "A": "App Engine",
+            "B": "Compute Engine",
+            "C": "Kubernetes Engine in Standard Mode",
+            "D": "Cloud Dataproc"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 13,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "What are some advantages of using the App Engine Standard Environment?",
+        "choices": {
+            "A": "Managed runtimes, inexpensive, can write to local disk",
+            "B": "Managed and custom runtimes",
+            "C": "Can write to disk, inexpensive, fast startup",
+            "D": "Managed runtimes, inexpensive, fast startup"
+        },
+        "answers": "D",
+        "note": null
+    },
+    {
+        "index": 14,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "What is an advantage of using a Flexible Environment with App Engine?",
+        "choices": {
+            "A": "Deploys within minutes",
+            "B": "Can customize the runtime",
+            "C": "More affordable",
+            "D": "Fast startup"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 15,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "How many App Engine applications can each GCP project contain?",
+        "choices": {
+            "A": "As many as I want",
+            "B": "1",
+            "C": "25",
+            "D": "1000"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 16,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "The security team wants detailed visibility of all resources in the org, which IAM role should be given to them?",
+        "choices": {
+            "A": "Project owner, Network administrator",
+            "B": "Organization viewer, Project viewer",
+            "C": "Organization viewer, Project owner",
+            "D": "Organization administrator, Project browser"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 17,
+        "source": "GIB - Week 2: Compute (Kahoot)",
+        "question": "Your customer is very concerned about costs. Which feature(s) of GCP can you ENABLE to help them save cost?",
+        "choices": {
+            "A": "Preemptible Virtual Machines",
+            "B": "Sustained Use Discounts (SUD)",
+            "C": "Spot Virtual Machines",
+            "D": "Committed Use Discounts (CUD)"
+        },
+        "answers": "A,C,D",
+        "note": null
+    },
+    {
+        "index": 18,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "Google VPCs are ...",
+        "choices": {
+            "A": "Global",
+            "B": "Zonal",
+            "C": "Regional",
+            "D": "No correct answer"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 19,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "I want to load balance internal UDP traffic, What should I use?",
+        "choices": {
+            "A": "Use TCP Proxy",
+            "B": "Use Internal HTTP(S) Load Balancing",
+            "C": "Use Internal TCP/UDP Load Balancing",
+            "D": "Use Network TCP/UDP Load Balancing"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 20,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What is required for a firewall rule?",
+        "choices": {
+            "A": "App, Ruling",
+            "B": "IP Addresses, Rules",
+            "C": "Conditions, Actions, Apply to",
+            "D": "Conditions, Actions, App"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 21,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What connectivity options use private addressing?",
+        "choices": {
+            "A": "Partner Interconect",
+            "B": "Dedicated Interconnect",
+            "C": "Direct Peering",
+            "D": "Carrier Peering"
+        },
+        "answers": "A,B",
+        "note": null
+    },
+    {
+        "index": 22,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What option would you recommend to link an on-premises network to Google Cloud that requires an 8Gbps connection?",
+        "choices": {
+            "A": "Direct Interconnect",
+            "B": "Cloud VPN",
+            "C": "Partner Interconnect",
+            "D": "Hybrid Interconnect"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 23,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What to enable when connecting a Google Cloud VM with only an internal IP address to the Google Cloud Storage API?",
+        "choices": {
+            "A": "HA VPN",
+            "B": "Private Service Connect for Google APIs",
+            "C": "Dedicated Interconnect",
+            "D": "Partner Interconnect"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 24,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What would you use to geographically distribute the workload without routing over public internet?",
+        "choices": {
+            "A": "Content Delivery Network",
+            "B": "VPNs",
+            "C": "Global load balancing",
+            "D": "Simple network management protocol"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 25,
+        "source": "GIB - Week 3: Networking (Kahoot)",
+        "question": "What type of network service would you use to ensure low-latency access to contents from around the globe?",
+        "choices": {
+            "A": "Firewall rules",
+            "B": "VPNs",
+            "C": "Content Delivery Network",
+            "D": "Routes"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 26,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "You need to store 1 TB of backup data for 3 months, and I need it to be as cheap as possible. Which GCS class to use?",
+        "choices": {
+            "A": "Archive Storage Class",
+            "B": "Coldline Storage Class",
+            "C": "Nearline Storage Class",
+            "D": "Standard Storage Class"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 27,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What are the access control options available for GCS?",
+        "choices": {
+            "A": "Signed URLs",
+            "B": "Signed Policy Documents",
+            "C": "IAM",
+            "D": "ACLs"
+        },
+        "answers": "A,B,C,D",
+        "note": null
+    },
+    {
+        "index": 28,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "Google Cloud Storage provides the following encryption options",
+        "choices": {
+            "A": "GMEK (Google-managed encryption key)",
+            "B": "CMEK (Customer-managed encryption key)",
+            "C": "CSEK (Customer-supplied encryption key)",
+            "D": "GUEK (Google-u? encryption key)"
+        },
+        "answers": "A,B,C",
+        "note": null
+    },
+    {
+        "index": 29,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What is not BigQuery’s characteristic?",
+        "choices": {
+            "A": "Enterprise Data Warehouse",
+            "B": "Online Transaction Processing Database",
+            "C": "Unlimited Storage",
+            "D": "Online Analytical Processing Database"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 30,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What are Google Cloud Storage features?",
+        "choices": {
+            "A": "Object Change Notification",
+            "B": "Object Versioning",
+            "C": "Allow customer-supplied encryption key",
+            "D": "Automatically delete or archive objects"
+        },
+        "answers": "A,B,C,D",
+        "note": null
+    },
+    {
+        "index": 31,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "A customer has been a long time Hadoop user with an ecosystem around it. Which service should be easiest to adopt?",
+        "choices": {
+            "A": "BigQuery",
+            "B": "Cloud Dataproc",
+            "C": "Cloud Storage",
+            "D": "Cloud Dataflow"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 32,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "Google Cloud SQL are available for these databases:",
+        "choices": {
+            "A": "PostgreSQL",
+            "B": "MariaDB",
+            "C": "MySQL",
+            "D": "Microsoft SQL Server"
+        },
+        "answers": "A,C,D",
+        "note": null
+    },
+    {
+        "index": 33,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "I need a SQL database with strong consistency for my global application. What can I use?",
+        "choices": {
+            "A": "Firestore",
+            "B": "Cloud Spanner",
+            "C": "Cloud SQL",
+            "D": "BigQuery"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 34,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What are the available storage classes for Cloud Storage?",
+        "choices": {
+            "A": "Nearline",
+            "B": "Standard",
+            "C": "Coldline",
+            "D": "Archive",
+            "E": "Long Term",
+            "F": "Distributed"
+        },
+        "answers": "A,B,C,D",
+        "note": null
+    },
+    {
+        "index": 35,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What can I use to transfer data from S3 to GCS?",
+        "choices": {
+            "A": "Cloud Shufflet",
+            "B": "Cloud Storage Transfer Service",
+            "C": "Cloud Data Mover",
+            "D": "Cloud Tiering Appliance"
+        },
+        "answers": "B",
+        "note": null
+    },
+    {
+        "index": 36,
+        "source": "GIB - Week 4: Storage and Databases(Kahoot)",
+        "question": "What is the best NoSQL database to store Ads, Finance, IOT, and time series data with HBase API compatible?",
+        "choices": {
+            "A": "Cloud Firestore",
+            "B": "Cloud Spanner",
+            "C": "Cloud Storage",
+            "D": "BigTable"
+        },
+        "answers": "D",
+        "note": null
+    },
+    {
+        "index": 37,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "Log exports can go to which of the following destination(s)?",
+        "choices": {
+            "A": "Cloud Bigtable",
+            "B": "Cloud SQL",
+            "C": "Cloud Storage",
+            "D": "BigQuery"
+        },
+        "answers": "C,D",
+        "note": null
+    },
+    {
+        "index": 38,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "The Cloud Ops Agent can be installed on which resource?",
+        "choices": {
+            "A": "App Engine",
+            "B": "Cloud Run",
+            "C": "Compute Engine",
+            "D": "Cloud Function"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 39,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "What is a good example of error monitoring metric for a Load Balancer?",
+        "choices": {
+            "A": "Instance Health Checks",
+            "B": "Total Round Trip Time (ms)",
+            "C": "# of New Connections",
+            "D": "# Unclean peer connection resets"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 40,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "You need an inexpensive solution for storing log entries long-term. Which destination should you use for the log sink?",
+        "choices": {
+            "A": "Cloud Pub/Sub",
+            "B": "Cloud Bigtable",
+            "C": "BigQuery",
+            "D": "Cloud Storage Bucket"
+        },
+        "answers": "D",
+        "note": null
+    },
+    {
+        "index": 41,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "What metrics should you use to monitor database server’s error?",
+        "choices": {
+            "A": "State",
+            "B": "Disk Quota",
+            "C": "SQL Thread running",
+            "D": "Query Duration"
+        },
+        "answers": "A,C",
+        "note": null
+    },
+    {
+        "index": 42,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "What are the observability products of Google Cloud Operations Suite (formerly Stackdriver)?",
+        "choices": {
+            "A": "Cloud Security Command Center",
+            "B": "Cloud Logging",
+            "C": "Cloud Monitoring",
+            "D": "Cloud APM"
+        },
+        "answers": "B,C,D",
+        "note": null
+    },
+    {
+        "index": 43,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "A dev team wants a tool to capture errors and help them analyze their historical log data for a new cloud-base app. What would you do?",
+        "choices": {
+            "A": "Direct them to download and install the Google Stackdriver logging agent",
+            "B": "Send them a list of online resources about logging best practices",
+            "C": "Help them define their requirements and assess viable logging tools",
+            "D": "Help them upgrade their current tool to take advantage of any new features"
+        },
+        "answers": "C",
+        "note": null
+    },
+    {
+        "index": 44,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "You are monitoring GKE clusters in a Cloud Monitoring workspace. As a SRE, you need to triage incidents quickly. What would you do?",
+        "choices": {
+            "A": "Navigate the predefined dashboards, add metrics, and create alert policies",
+            "B": "Navigate the predefined dashboards, add metrics, and install alert agents",
+            "C": "Write a script that gathers metrics from GKE nodes, publish to a Pub/Sub",
+            "D": "Create a custom dashboard for each incident, add metrics and create alerts"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 45,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "Business users inform you that an app has become very slow over the past few days. What to do first?",
+        "choices": {
+            "A": "Inspect the logs and metrics in Cloud Logging and Cloud Monitoring",
+            "B": "Change the Compute Engine instances behind the app for more CPU and Memory",
+            "C": "Restore a backup of the app to a time before the application became slow",
+            "D": "Deploy the app on a managed instance group (MIG) with autoscaling enabled"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 46,
+        "source": "GIB - Week 5: Logging and Monitoring (Kahoot)",
+        "question": "What might be the first indication of an issue for an application?",
+        "choices": {
+            "A": "Latency",
+            "B": "Traffics",
+            "C": "Saturation",
+            "D": "Error"
+        },
+        "answers": "A",
+        "note": null
+    },
+    {
+        "index": 47,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You’re working on setting up a cluster of virtual machines with GPUs to perform some 3D rendering for a customer. They’re on a limited budget and are looking for ways to save money. What is the best solution for implementing this?",
+        "choices": {
+            "A": "Use an unmanaged instance group with preemptible instances.",
+            "B": "Use an autoscaled managed instance group using preemptible instances.",
+            "C": "Use App Engine with Flexible Environments.",
+            "D": "Use App Engine with Standard Environments."
+        },
+        "answers": "B",
+        "note": "An autoscaled managed instance group will make it easy to have instances added automatically. Using a preemptible instance will save cost."
+    },
+    {
+        "index": 48,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your manager needs you to test out the latest version of MS-SQL on a Windows instance. You've created the VM and need to connect into the instance. What steps should you follow to connect to the instance?",
+        "choices": {
+            "A": "Connect in with your own RDP client using your Google Cloud username and password.",
+            "B": "Generate a Windows password in the console, then use a client capable of communicating via RDP and provide the credentials.",
+            "C": "Grant yourself access to the Windows instance via IAM, then use the RDP button to connect in through the console.",
+            "D": "From the console click the SSH button to automatically connect."
+        },
+        "answers": "B",
+        "note": "Before connecting into a Windows instance you need to have a password generated. Then you can use any RDP client you want."
+    },
+    {
+        "index": 49,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "The development team needs a regional MySQL database with point-in-time recovery for a new proof-of-concept application. What's the most inexpensive way to enable point-in-time recovery?",
+        "choices": {
+            "A": "Replicate to a Cloud Spanner database.",
+            "B": "Create a read replica in the same region.",
+            "C": "Enable binary logging.",
+            "D": "Create hourly back-ups."
+        },
+        "answers": "C",
+        "note": "Binary logging allows you to use point-in-time recovery. https://cloud.google.com/sql/docs/mysql/backup-recovery/restore "
+    },
+    {
+        "index": 50,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your team is working on designing an IoT solution. There are thousands of devices that need to send periodic time series data for processing. Which services should be used to ingest and store the data?",
+        "choices": {
+            "A": "Pub/Sub, Datastore",
+            "B": "Pub/Sub, Dataproc",
+            "C": "Dataproc, Bigtable",
+            "D": "Pub/Sub, Bigtable"
+        },
+        "answers": "D",
+        "note": "Pub/Sub is able to handle the ingestion, and Bigtable is a great solution for time series data. https://cloud.google.com/pubsub/ https://cloud.google.com/bigtable/docs/ "
+    },
+    {
+        "index": 51,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have an autoscaled managed instance group that is set to scale based on CPU utilization of 60%. There are currently 3 instances in the instance group. You're connected to one of the instances and notice that the CPU usage is a 70%. However, the instance group isn't starting up another instance. What's the most likely reason?",
+        "choices": {
+            "A": "The autoscaler is disabled.",
+            "B": "The autoscaler takes 60 seconds before creating a new instance.",
+            "C": "The load balancer doesn't recognize the instance as healthy.",
+            "D": "The average CPU for the entire instance group is below 60%."
+        },
+        "answers": "D",
+        "note": "The autoscaler averages the CPU usage of the entire group. so one instance could be higher than the usage threshold."
+    },
+    {
+        "index": 52,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "What's the easiest way to ensure that the nodes in your Kubernetes cluster are always up-to-date with the latest stable version of Kubernetes?",
+        "choices": {
+            "A": "Opt into the Kubernetes Node Update program from the quotas page.",
+            "B": "Run the kubectl nodes update command.",
+            "C": "Run the kubectl nodes upgrade command.",
+            "D": "Enable the automatic node upgrades setting."
+        },
+        "answers": "D",
+        "note": "In the UI this is just a checkbox. On the CLI, you can use --enable-autoupgrade."
+    },
+    {
+        "index": 53,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your coworker created a deployment for your application container. You can see the deployment under Workloads in the console. They're out for the rest of the week, and your boss needs you to complete the setup by exposing the workload. What's the easiest way to do that?",
+        "choices": {
+            "A": "Create a new Service that points to the existing deployment.",
+            "B": "Create a new DaemonSet.",
+            "C": "Create a Global Load Balancer that points to the pod in the deployment.",
+            "D": "Create a Static IP Address Resource for the Deployment."
+        },
+        "answers": "A",
+        "note": "A service is how we expose deployments. It's a persistent endpoint that we can interact with, and it will send the traffic over to the pods in the deployment."
+    },
+    {
+        "index": 54,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your company has hired a third-party analytics company to help find patterns in user data. Your development team has generated a file containing only the data they've requested; which includes personally identifiable information. What is the best way to share the data with the other company?",
+        "choices": {
+            "A": "Create a new user for the company and grant them access to the original data source for them to query.",
+            "B": "Send the file through email.",
+            "C": "Put the data on Cloud Storage and generate a signed URL that will expire in one hour, and securely share the URL.",
+            "D": "Put the data on Cloud Storage in a public bucket and securely share the URL."
+        },
+        "answers": "C",
+        "note": "This will allow anyone with the URL to access the data for an hour."
+    },
+    {
+        "index": 55,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your security team has asked you to present them some numbers based on the logs that are exported to BigQuery. Due to the team structure, your manager has asked you to determine how much the query will cost. What's the best way to determine the cost?",
+        "choices": {
+            "A": "It's not possible to estimate the cost of a query.",
+            "B": "Create the query and execute the query in \"cost estimation mode\"",
+            "C": "Create the query and use the dry-run option to determine the amount of data read, then use the price calculator to determine the cost.",
+            "D": "Use the BigQuery index viewer to determine how many records you'll be reading."
+        },
+        "answers": "C",
+        "note": "BigQuery is billed based on the amount of data read. The dry-run flag is used to determine how many bytes are going to be read."
+    },
+    {
+        "index": 56,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your team is developing a product catalog that allows end users to search and filter. The full catalog of products consists of about 500 products. The team doesn't have any experience with SQL, or schema migrations, so they're considering a NoSQL option. Which database service would work best?",
+        "choices": {
+            "A": "Cloud SQL",
+            "B": "Cloud Memorystore",
+            "C": "Bigtable",
+            "D": "Cloud Datastore"
+        },
+        "answers": "D",
+        "note": "Datastore can be queried, it's fully managed, and is a great option for catalog based applications. Datastore also supports a basic query/filter syntax."
+    },
+    {
+        "index": 57,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've uploaded some PDFs to a public bucket. When users browse to the documents, they're downloaded rather than viewed in the browser. How can we ensure that the PDFs are viewed in the browser?",
+        "choices": {
+            "A": "This is a browser setting and not something that can be changed.",
+            "B": "Use the gsutil set file-type pdfcommand.",
+            "C": "Set the Content metadata for the object to \"application/pdf\".",
+            "D": "Set the Content-Type metadata for the object to \"application/pdf\"."
+        },
+        "answers": "D",
+        "note": "This will ensure the browser views the object as a PDF. https://cloud.google.com/storage/docs/metadata#content-type "
+    },
+    {
+        "index": 58,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have a Cloud Storage bucket that needs to host static web assets. How do you make the bucket public?",
+        "choices": {
+            "A": "Trick question. Don't ever make a bucket public.",
+            "B": "Check the \"make public\" box in the UI.",
+            "C": "Set allUsers to have the Storage Object Viewer role.",
+            "D": "gsutil make-public gs://bucket-name"
+        },
+        "answers": "C",
+        "note": "This will make a bucket public"
+    },
+    {
+        "index": 59,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have a Linux server running on a custom network. There's an allow firewall rule with an IP filter of 0.0.0.0/0 with a protocol/port of tcp:22. The logs on the instance show a constant stream of attempts from different IP addresses, trying to connect via SSH. You suspect this is a brute force attack.How might you change the firewall rule to stop this from happening and still enable access for legit users?",
+        "choices": {
+            "A": "Stop the instance.",
+            "B": "Deny all traffic to port 22.",
+            "C": "Change the port that SSH is running on in the instance and change the port number in the firewall rule.",
+            "D": "Change the IP address range in the filter to only allow known IP addresses."
+        },
+        "answers": "D",
+        "note": "By using 0.0.0.0/0, you're opening the port to the internet. By whitelisting known IP addresses, it will block anyone not on the list."
+    },
+    {
+        "index": 60,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're using Deployment Manager to deploy your application to an autoscaled, managed instance group on Compute Engine. The application is a single binary, What is the fastest way to get the binary onto the instance, without introducing undue complexity?",
+        "choices": {
+            "A": "When creating the instance template use the startup script metadata key to bootstrap the application.",
+            "B": "Use a \"golden image\" that contains everything you need.",
+            "C": "When creating the instance template, use the startup script metadata key to install Ansible. Have the instance run the play-book at startup to install the application.",
+            "D": "Once the instance starts up, connect over SSH and install the application."
+        },
+        "answers": "A",
+        "note": "The startup script is a simple way to get your application bootstrapped without adding more tooling."
+    },
+    {
+        "index": 61,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your team needs to set up a new Jenkins instance as quickly as possible. What's the best way to get it up-and-running?",
+        "choices": {
+            "A": "Use Google's Managed Jenkins Service.",
+            "B": "Deploy the jar file to a Compute Engine instance.",
+            "C": "Search the marketplace for Jenkins and install with Cloud Launcher.",
+            "D": "Create a Deployment Manager template and deploy it."
+        },
+        "answers": "C",
+        "note": "This is a simple way to install common software."
+    },
+    {
+        "index": 62,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You’ve found that your Linux server keeps running low on memory. It’s currently using 8 Gigs of memory, and you want to increase it to 16. What is the simplest way to do that?",
+        "choices": {
+            "A": "Use the gcloud compute add-memory command to increase the memory.",
+            "B": "Use the Linux memincr command to increase the memory.",
+            "C": "Stop the instance and change the machine type.",
+            "D": "Create a new instance with the correct amount of memory."
+        },
+        "answers": "C",
+        "note": "This is a valid way to change the memory of an instance."
+    },
+    {
+        "index": 63,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your developers have created an application that needs to be able to make calls to Cloud Storage and BigQuery. The code is going to run inside a container and will run on Kubernetes Engine and on-premises. What's the best way for them to authenticate to the Google Cloud services?",
+        "choices": {
+            "A": "Create a service account, grant it the least viable privileges to the required services, generate and download a key. Use the key to authenticate inside the application.",
+            "B": "Use the default service account for App Engine which already has the required permissions.",
+            "C": "Use the default service account for Compute Engine which already has the required permissions.",
+            "D": "Create a service account, with editor permissions, generate and download a key. Use the key to authenticate inside the application."
+        },
+        "answers": "A",
+        "note": "Service accounts are used for this very reason. Care needs to be taken with the key. However, this will work."
+    },
+    {
+        "index": 64,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your team has been working towards using desired state configuration for your entire infrastructure, which is why they're excited to store the Kubernetes Deployments in YAML. You created a Kubernetes Deployment with the kubectl apply command and passed on a YAML file. You need to edit the number of replicas. What steps should you take to update the Deployment?",
+        "choices": {
+            "A": "Edit the number of replicas in the YAML file and rerun the kubectl apply.",
+            "B": "Edit the YAML and push it to Github so that the git triggers deploy the change.",
+            "C": "Disregard the YAML file. Use the kubectl scale command.",
+            "D": "Edit the number of replicas in the YAML file and run the kubectl set image command."
+        },
+        "answers": "A",
+        "note": "If you create a deployment with the kubectl create or apply commands, then you can update with kubectl apply -f file.yaml."
+    },
+    {
+        "index": 65,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're about to deploy your team's App Engine application. They're using the Go runtime with a Standard Environment. Which command should you use to deploy the application?",
+        "choices": {
+            "A": "gcloud app deploy app.yaml",
+            "B": "gcloud app-engine apply app.yaml",
+            "C": "gcloud app apply app.yaml",
+            "D": "gcloud app-engine deploy app.yaml"
+        },
+        "answers": "A",
+        "note": "The configuration is contained in the app.yaml for most runtimes. Java uses app.xml. The command will also work without specifying the file if it's in the current working directory."
+    },
+    {
+        "index": 66,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your developers are trying to connect to an Ubuntu server over SSH to diagnose some errors. However, the connection times out. Which command should help solve the problem?",
+        "choices": {
+            "A": "gcloud compute firewall-rules create \"open-ssh\" --network $NETWORK --allow tcp:22",
+            "B": "gcloud compute firewall-rules create \"open-ssh\"",
+            "C": "gcloud compute firewall-rules create \"open-ssh\" --network $NETWORK --deny tcp:22",
+            "D": "gcloud compute firewall-rules create \"open-ssh\" --network $NETWORK --allow tcp:3389"
+        },
+        "answers": "A",
+        "note": "The assumption here is that port 22 for ssh is blocked by the firewall. This will open it up to the world."
+    },
+    {
+        "index": 67,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're trying to provide temporary access to some files in a Cloud Storage bucket. You want to limit the time that the files are available to 10 minutes. With the fewest steps possible, what is the best way to generate a signed URL?",
+        "choices": {
+            "A": "In the UI select the objects and click the Generate Signed URL button.",
+            "B": "Create a service account and JSON key. Use the gsutil signurl -t 10m command and pass in the JSON key and bucket.",
+            "C": "In the UI select the objects and click the \"Sign With Key\" button.",
+            "D": "Create a service account and JSON key. Use the gsutil signurl -d 10m command and pass in the JSON key and bucket."
+        },
+        "answers": "D",
+        "note": "This is a quick way to generate the URL. This will create a signed URL that will expire in 10 minutes."
+    },
+    {
+        "index": 68,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your developers have some application metrics that they're tracking. They'd like to be able to create alerts based on these metrics. What steps need to happen in order to alert based on these metrics?",
+        "choices": {
+            "A": "In the UI create a new logging metric with the required filters, edit the application code to set the metric value when needed, and create an alert in Cloud Monitoring based on the new metric.",
+            "B": "Add the Cloud Monitoring and Logging agent to the instances running the code.",
+            "C": "Create a custom monitoring metric in code, edit the application code to set the metric value when needed, and create an alert in Cloud Monitoring based on the new metric.",
+            "D": "Create a custom monitoring metric in code, in the UI create a matching logging metric, and create an alert in Cloud Monitoring based on the new metric."
+        },
+        "answers": "C",
+        "note": "This will work. Developers can use one of Google's APIs to create and set custom metrics."
+    },
+    {
+        "index": 69,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're looking for the IP address of a specific instance that is running in your default zone. Which command and flag(s) could you use to return just the IP address?",
+        "choices": {
+            "A": "The gcloud compute list along with the filter and format flags.",
+            "B": "The gcloud compute list along with the o flag and jsonpath value.",
+            "C": "The gcloud compute instances list along with the o flag and jsonpath value",
+            "D": "The gcloud compute instances list along with the filter and format flags"
+        },
+        "answers": "D",
+        "note": "This would allow you to zero in on just the properties you want."
+    },
+    {
+        "index": 70,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your data team is working on some new machine learning models. They're generating several files per day that they want to store in a regional bucket. Most of their work involves files from the last week, however sometimes they must access older files. With the fewest steps possible, what's the best way to lower the storage costs?",
+        "choices": {
+            "A": "Create a Cloud Function triggered when objects are added to a bucket. Look at the date on all the files and move it to coldline storage if it's older than a week.",
+            "B": "Create a lifecycle policy to switch the objects older than a week to nearline storage.",
+            "C": "Create a lifecycle policy to switch the objects older than a week to coldline storage.",
+            "D": "Create a Cloud Function triggered when objects are added to a bucket. Look at the date on all the files and move it to nearline storage if it's older than a week."
+        },
+        "answers": "B",
+        "note": "This would work well, it would save them money on storage, and still be accessible if they need to access the files."
+    },
+    {
+        "index": 71,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your coworker has helped you set up several configurations for gcloud. You've noticed that you're running commands against the wrong project. Being new to the company, you haven't yet memorized any of the projects. With the fewest steps possible, what's the fastest way to switch to the correct configuration?",
+        "choices": {
+            "A": "Run gcloud configurations list followed by gcloud configurations activate.",
+            "B": "Run gcloud config list followed by gcloud config activate.",
+            "C": "Run gcloud config configurations list followed by gcloud config configurations activate.",
+            "D": "Re-authenticate with the gcloud auth login command and select the correct configurations on login."
+        },
+        "answers": "C",
+        "note": "This will allow you to list off the configurations and then activate the one you need."
+    },
+    {
+        "index": 72,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your team has some new functionality that they want to roll out slowly so they can monitor for errors. The change contains some significant changes to the user interface. You've chosen to use traffic splitting to perform a canary deployment. You're going to start by rolling out the code to 15% of your users. How should you go about setting up traffic splitting?",
+        "choices": {
+            "A": "Deploy the new version. Split the traffic using an IP or cookie based distribution.",
+            "B": "Use the gcloud app deploy command with the distribution flag to deploy and split the traffic in one command.",
+            "C": "Deploy the new version using the no-promote flag. Split the traffic using cookie based distribution.",
+            "D": "Deploy the new version using the no-promote flag. Split the traffic using a random distribution."
+        },
+        "answers": "C",
+        "note": "This will work. Cookie-based will allow for a level of persistence so if a user reloads the page, they'll see the version they're supposed to."
+    },
+    {
+        "index": 73,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're running an n-tier application on Compute Engine with an Apache web server serving up web requests. You want to consolidate all of your logging into Cloud Operations Suite. What's the best approach to get the Apache logs into Cloud Operations Suite?",
+        "choices": {
+            "A": "Create a log sink and export it to Cloud Logging.",
+            "B": "Cloud Operations Suite logs application data from all instances by default.",
+            "C": "Enable Cloud Monitoring when creating the instance.",
+            "D": "Install the Cloud Monitoring and Logging agents on the instance."
+        },
+        "answers": "D",
+        "note": "The agents know how to collect monitoring and logging data from Apache."
+    },
+    {
+        "index": 74,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've been running App Engine applications in a Standard Environment for a few weeks. With several successful deployments, you've just deployed a broken version, and the developers have gone home for the day. What is the fastest way to get the site back into a functioning state?",
+        "choices": {
+            "A": "Have the developers fix the issue and deploy.",
+            "B": "Use the gcloud app rollback command",
+            "C": "In the UI, click Traffic Splitting and direct 100% of the traffic to the previous version.",
+            "D": "In the UI, click the Rollback button on the versions page."
+        },
+        "answers": "C",
+        "note": "This is an easy way to roll the change back to a working version."
+    },
+    {
+        "index": 75,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're migrating an on-premises application to Google Cloud. The application uses a component that requires a licensing server. The license server has the IP address 10.28.0.10. You want to deploy the application without making any changes to the code or configuration. How should you go about deploying the application?",
+        "choices": {
+            "A": "Create a subnet with a CIDR range of 10.28.0.0/28. Reserve a static internal IP address of 10.28.0.10. Assign the static address to the license server instance.",
+            "B": "Create a subnet with a CIDR range of 10.28.0.0/28. Reserve a static external IP address of 10.28.0.10. Assign the static address to the license server instance.",
+            "C": "Create a subnet with a CIDR range of 10.28.0.0/10. Reserve a static external IP address of 10.28.0.10. Assign the static address to the license server instance.",
+            "D": "Create a subnet with a CIDR range of 10.28.0.0/29. Reserve a static internal IP address of 10.28.0.10. Assign the static address to the license server instance."
+        },
+        "answers": "A",
+        "note": "This would work. The CIDR range is large enough to include 10.28.0.10."
+    },
+    {
+        "index": 76,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have several users who need access to some very specific Google Cloud functionality. You'd like to follow the principle of least privilege. What's the best way to ensure these users can list Cloud Storage buckets, list BigQuery jobs, and list compute disks?",
+        "choices": {
+            "A": "Add the users to a group, apply the Cloud Storage Bucket Viewer, BigQuery Job User, and Compute User predefined roles.",
+            "B": "Use the Cloud Storage Bucket Viewer, BigQuery Job User, and Compute User predefined roles.",
+            "C": "Create a custom role for this job role, add the required permissions, and add the users to the role.",
+            "D": "Add the users to the viewer role."
+        },
+        "answers": "C",
+        "note": "This meets all the criteria. Using predefined roles would work, however, they'd be too permissive."
+    },
+    {
+        "index": 77,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've setup and tested several custom roles in your development project. What is the fastest way to create the same roles for your new production project?",
+        "choices": {
+            "A": "Recreate them in the new project.",
+            "B": "Use the gcloud iam copy roles command and set the destination project.",
+            "C": "In the UI, select the roles and click the Export button.",
+            "D": "Use the gcloud iam roles copy command and set the destination project."
+        },
+        "answers": "D",
+        "note": "This is a fast way to copy existing roles, even across projects. https://cloud.google.com/sdk/gcloud/reference/iam/roles/copy"
+    },
+    {
+        "index": 78,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Which of the following is a valid use case for using a primitive role?",
+        "choices": {
+            "A": "When granting permission to a development project or to the development team.",
+            "B": "When there are more than 10 users.",
+            "C": "When creating a custom role requires more than 10 permissions.",
+            "D": "When granting permission to a production project, or to a third-party company."
+        },
+        "answers": "A",
+        "note": "This would meet Google's recommended use cases. https://cloud.google.com/iam/docs/using-iam-securely#least_privilege "
+    },
+    {
+        "index": 79,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've been asked to add a new IAM member and grant them access to run some queries on BigQuery. Considering the principle of least privilege, which role should you assign?",
+        "choices": {
+            "A": "roles/bigquery.dataViewer and roles/bigquery.jobUser",
+            "B": "Project Editor",
+            "C": "roles/bigquery.admin",
+            "D": "roles/bigquery.dataOwner"
+        },
+        "answers": "A",
+        "note": "These should give enough access to run queries."
+    },
+    {
+        "index": 80,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "While looking at your application's source code in your private Github repo, you've noticed that a service account key has been committed to git. What steps should you take next?",
+        "choices": {
+            "A": "Revoke the key, remove the key from Git, purge the Git history to remove all traces of the file, ensure the key is added to the .gitignore file.",
+            "B": "Delete the project and create a new one.",
+            "C": "Do nothing. Git is fine for keys if the repo is private.",
+            "D": "Contact Google Cloud Support"
+        },
+        "answers": "A",
+        "note": "This should do it. This is pretty common, so if it happens to you, don't beat yourself up about it. Just take steps to ensure it doesn't happen in the future. https://cloud.google.com/iam/docs/creating-managing-service-account-keys#deleting_service_account_keys  https://help.github.com/articles/removing-sensitive-data-from-a-repository/ "
+    },
+    {
+        "index": 81,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Which of the following is a valid use case for Flow Logs?",
+        "choices": {
+            "A": "Blocking instances from communicating over certain ports.",
+            "B": "Network forensics.",
+            "C": "Proxying SSL traffic.",
+            "D": "Serving as a UDP relay."
+        },
+        "answers": "B",
+        "note": "This is something useful because flow logs will show which IP addresses interacted with which service and when. https://cloud.google.com/vpc/docs/using-flow-logs "
+    },
+    {
+        "index": 82,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Regarding audit logs, which of the following is a Google recommended best practice?",
+        "choices": {
+            "A": "Export your audit logs to App Engine.",
+            "B": "Export your audit logs to Pub/Sub.",
+            "C": "Flush your audit logs monthly so you can more easily notice security events.",
+            "D": "Export your audit logs to Cloud Storage and store them for a long period of time."
+        },
+        "answers": "D",
+        "note": "Audit logs should always be backed up and stored securely for as long as is practical. https://cloud.google.com/iam/docs/using-iam-securely "
+    },
+    {
+        "index": 83,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have 3 Cloud Storage buckets that all store sensitive data. Which grantees should you audit to ensure that these buckets are not public?",
+        "choices": {
+            "A": "allUsers",
+            "B": "allAuthenticatedUsers",
+            "C": "publicUsers",
+            "D": "allUsers and allAuthenticatedUsers"
+        },
+        "answers": "D",
+        "note": "Either of these tokens represents public users. allAuthenticatedUsers represents a user with a Google account. They don't need to be part of your organization. Neither token should be used to grant permissions unless the bucket is truly public."
+    },
+    {
+        "index": 84,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your boss has asked you to onboard a new user and provide them with access to their team's project. What set of steps best describes what needs to happen?",
+        "choices": {
+            "A": "Add them as a member of the project, grant them the required roles, and sync the user back to G Suite.",
+            "B": "Add the user inside of G Suite, create a user group inside of GCP IAM settings, and add them to that user group",
+            "C": "Add the user inside of G Suite, add them as a member of the project, and grant them the required roles.",
+            "D": "Add the user inside of G Suite; sync from G Suite to the Active Directory using the Directory Sync util; add them as a member and grant them the required roles."
+        },
+        "answers": "C",
+        "note": "This assumes that the company is using G Suite. Given that, this set of steps would work well."
+    },
+    {
+        "index": 85,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your security team has been reluctant to move to the cloud because they don't have the level of network visibility they're used to. Which feature might help them to gain insights into your Google Cloud network?",
+        "choices": {
+            "A": "Routes",
+            "B": "Subnets",
+            "C": "Flow logs",
+            "D": "Firewall rules"
+        },
+        "answers": "C",
+        "note": "Flow logs are great for gaining insights into what's happening on a network. They provide a sample of the flows to and from instances. https://cloud.google.com/vpc/docs/using-flow-logs "
+    },
+    {
+        "index": 86,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "Your boss has asked you to set up the CFO as a user inside Google Cloud. The CFO needs to be able to view financial data across all projects in your organization. Using the principle of least privilege, which role should you assign your CFO?",
+        "choices": {
+            "A": "Project Owner",
+            "B": "Billing Account Admin",
+            "C": "Project Editor",
+            "D": "Billing Account Viewer"
+        },
+        "answers": "D",
+        "note": "This is a good role for users who need to view the spending data but not make changes or create billable projects. This would be a good role for a CFO."
+    },
+    {
+        "index": 87,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You keep attempting to execute a command, and while there's no error being thrown, you suspect something is going wrong. You want to check out the gcloud logs. However, you can't recall in which directory they're located. Your script skills are not what they could be, so you can't rely on using those fancy command line skills. Which command could you run to show you where the log directory is located?",
+        "choices": {
+            "A": "google logs",
+            "B": "gcloud logging",
+            "C": "gcloud info",
+            "D": "gcloud"
+        },
+        "answers": "C",
+        "note": "This display gives details about the components, libraries, system details, and the log directory, as well as the last log file."
+    },
+    {
+        "index": 88,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've installed the Google Cloud SDK natively on your Mac. You'd like to install the kubectl component via the Google Cloud SDK. Which command would accomplish this?",
+        "choices": {
+            "A": "sudo apt-get install kubectl",
+            "B": "gcloud components install kubectl",
+            "C": "pip install kubectl",
+            "D": "brew install kubectl"
+        },
+        "answers": "B",
+        "note": "For Windows and Mac, you can use the built-in component manager."
+    },
+    {
+        "index": 89,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You’ve just enabled an API for the developers. A couple of minutes later, one of the developers pastes a screenshot into Slack.The screenshot indicates that the API isn't enabled. You can see that the project ID is correct. What is the most likely reason for this error?",
+        "choices": {
+            "A": "The API hasn't completed the process to become fully enabled yet.",
+            "B": "The developer is using the wrong project.",
+            "C": "The developer didn't run the gcloud refresh api command.",
+            "D": "The developer is trying to use the wrong API."
+        },
+        "answers": "A",
+        "note": "Some APIs can take several minutes to become fully enabled. The developer needs to learn to be a bit more patient."
+    },
+    {
+        "index": 90,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've been hired as a Cloud Engineer for a 2-year-old startup company. Recently they've had a bit of turn over, and several engineers have left the company to pursue different projects. Shortly after one of them leaves, it is found that a core project seems to have been deleted. What is the most likely cause for of the project's deletion?",
+        "choices": {
+            "A": "You've been the victim of the latest malware that deletes one project per hour until you pay them to stop.",
+            "B": "One of the engineers intentionally deleted the project out of spite.",
+            "C": "The project was created by one of the engineers and not attached to the organization.",
+            "D": "A failed attempt to pay the bill resulted in Google deleting the project."
+        },
+        "answers": "C",
+        "note": "This is one of the problems that Organizations solved. If you have your projects created by random users under their user account, then when they're removed, the projects will be removed too. https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#benefits_of_the_organization_resource "
+    },
+    {
+        "index": 91,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You have all your compute resources in a specific region. You want to set a selected region as the default region for gcloud commands. What are the steps you should take?",
+        "choices": {
+            "A": "Use gcloud config set compute/region to set the default region",
+            "B": "Use gcloud config components list to set the default region",
+            "C": "No need to set it",
+            "D": "Use gcloud default region set to set the default region"
+        },
+        "answers": "A",
+        "note": "gcloud config set compute/region REGION"
+    },
+    {
+        "index": 92,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You're attempting to install the kubectl component on an Ubuntu server, though, you're getting an error. The error indicates that the component manager is disabled. What is the most likely cause for the error?",
+        "choices": {
+            "A": "The Cloud SDK was not installed with root permissions.",
+            "B": "The Cloud SDK is running inside a Docker container.",
+            "C": "The Cloud SDK was installed using apt.",
+            "D": "The Cloud SDK is using the wrong configuration."
+        },
+        "answers": "C",
+        "note": "If you use a package manager (Apt or Yum) to install the SDK, then you can't use the built-in component manager to install or remove components."
+    },
+    {
+        "index": 93,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've been asked to add Martha Jones as a member of the \"Production Storefront App\" project; Using the email address martha.jones@tardis.com with the App Engine Admin role. You browse to the IAM page in the console and attempt to add her, however, you get the following error.\"Email addresses and domains must be associated with an active Google Account or Google Apps account. \"What's the most likely cause for this error?",
+        "choices": {
+            "A": "Martha has already been added as a to this project as a different member.",
+            "B": "Martha has been denied access due to a policy on the Organization.",
+            "C": "Martha hasn't been added as a user inside the Company's G Suite account.",
+            "D": "Martha has an outstanding bill with Google and can't be added until the bill is paid."
+        },
+        "answers": "C",
+        "note": "Google supports users who have a Gmail, or Google Groups account. They also support the users in your G Suite or Cloud Identity account. If Martha hasn't been added as a user inside G Suite, then IAM won't accept her email address."
+    },
+    {
+        "index": 94,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've finally been given a new laptop, but you need to install all of the tools you need. You already installed the Cloud SDK, but none of the commands seem to be working correctly. What step did you likely forget?",
+        "choices": {
+            "A": "gcloud init",
+            "B": "gcloud config_list",
+            "C": "gcloud application_init",
+            "D": "gcloud config list"
+        },
+        "answers": "A",
+        "note": "Running gcloud init will kick off the authentication process as well as go through setting some default properties, such as the project. If you're not able to interact with your project after installing the SDK, you may have missed running the init process."
+    },
+    {
+        "index": 95,
+        "source": "GIB - Week 6: Review & Practice Exam",
+        "question": "You've run a command to start up 2 new instances. However, you do not see the instances in the console. What command(s) would help you to identify the cause of the problem? (Choose two)",
+        "choices": {
+            "A": "gcloud auth login",
+            "B": "gcloud info",
+            "C": "gcloud debug",
+            "D": "gcloud config list"
+        },
+        "answers": "B,D",
+        "note": "B - This command shows more data than you'd need. However, it will show the properties. Seeing the properties, you'd be able to determine if the project is set incorrectly.  D - The issue is most likely related to the command being run against the wrong project. This command will show the default project, which will let you know which project you ran this against."
+    }
+]
